@@ -1,0 +1,98 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #c7d2fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.withdraw-card {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .withdraw-card {
+    width: 320px;
+    height: 350px;
+    padding-bottom: 10px;
+  }
+}
+.user-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-initial {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 20px;
+  border-radius: 100%;
+  width: 60px;
+  text-align: center;
+  font-family: Roboto;
+}
+.user-full-name {
+  color: #c4c4c4;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.balance-text {
+  font-family: Roboto;
+  color: #585076;
+  font-size: 16px;
+}
+.balance-amount {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+}
+.amount-in-text {
+  margin-top: 0px;
+  color: #585076;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.withdraw-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+}
+.withdraw-header {
+  color: #585076;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.withdraw-cash-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  list-style-type: none;
+}

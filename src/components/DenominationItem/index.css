@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-item-style {
+  width: 48%;
+}
+.cash-withdraw-button {
+  padding: 5px 30px 5px 30px;
+  font-family: Roboto;
+  color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  background-color: #585076;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 17px;
+}
