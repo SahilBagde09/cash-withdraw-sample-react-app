@@ -16,7 +16,7 @@ class CashWithdrawal extends Component {
     const {amount} = this.state
     const {denominationsList} = this.props
     console.log(denominationsList)
-    const userName = 'Sarah Williams'
+    const userName = 'Sahil Bagde'
     const userNameInitial = userName.slice(0, 1)
     return (
       <div className="bg-container">
